@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "fabric": "^4.6.0"
+  },
+  "name": "tshirt.javascript",
+  "version": "1.0.0",
+  "description": "create a custom t-shirt design with javascript",
+  "main": "index.js",
+  "author": "boullif adel ",
+  "license": "MIT"
+}

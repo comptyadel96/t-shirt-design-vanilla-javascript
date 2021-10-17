@@ -1,0 +1,174 @@
+/* import font style from fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Monoton&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("./images/bg2.jpg");
+}
+
+#Title {
+  color: white;
+  width: 50%;
+  margin: 3rem auto;
+  font-weight: bolder;
+  font-family: 'Festive', cursive;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom-width: 0.6rem;
+  border-bottom-style: double;
+  border-bottom-color: white;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.hideOperations {
+  display: none;
+}
+
+.displayOperations {
+  display: block;
+
+}
+
+.button {
+  border: none;
+  outline: none;
+  padding: 5px 8px;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: large;
+}
+
+#add-text {
+  background-color: rgba(13, 98, 13, 0.5);
+}
+
+#add-text:hover {
+  background-color: rgb(13, 98, 13);
+}
+
+#delete-object {
+  background-color: rgba(98, 13, 13, 0.5);
+}
+
+#delete-object:hover {
+  background-color: rgb(98, 13, 13);
+
+}
+
+.controls {
+  overflow: hidden;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.15);
+  margin-left: 15px;
+  padding: 6px;
+  display: block;
+}
+
+.editor-area {
+  margin-left: 15px;
+  width: fit-content;
+  padding: 10px;
+  background-color: rgba(16, 134, 26, 0.3);
+}
+
+.edit-shirt-color {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+}
+
+.txt {
+  margin: 5px 0px;
+  font-size: large;
+  font-weight: bold;
+  color: rgb(165, 165, 165);
+}
+
+#shirt-text {
+  text-align: center;
+  color: rgb(255, 187, 0);
+}
+
+#shirt-background {
+  border: none;
+  outline: none;
+  margin-left: 8px;
+}
+
+#imgLoader {
+  outline: none;
+  border: none;
+  font-weight: bold;
+  color: rgb(194, 194, 194);
+}
+
+/* canvas object */
+#c {
+  background-color: black;
+}
+
+/* divs to change the font family of the text  */
+.font-text {
+  color: white;
+  border-radius: 15px;
+  padding: 6px;
+  margin: 5px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* 1 st div */
+#Festival {
+  font-family: 'Festive', cursive;
+  background-color: rgb(51, 86, 107);
+  font-size: 30px;
+  padding: 0px;
+}
+
+/* 2 nd div  */
+#Monoton {
+  font-family: 'Monoton', cursive;
+  background-color: rgb(107, 94, 51);
+}
+
+/* 3 rd div */
+#ZCOOL-KuaiLe {
+  font-family: 'ZCOOL KuaiLe', cursive;
+  background-color: rgb(99, 51, 107);
+}
+
+/* 4 th div */
+#Fredericka {
+  font-family: 'Fredericka the Great', cursive;
+  background-color: rgb(107, 51, 51);
+}
+.tips-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 1rem;
+}
+.tips-title{
+  font-size: 3rem;
+  font-weight: bolder;
+  color: rgb(184, 152, 13);
+  margin-bottom: 2px;
+}
+.step{
+color: white;
+font-size: 1.5rem;
+margin: 0.3rem 0px;
+}
