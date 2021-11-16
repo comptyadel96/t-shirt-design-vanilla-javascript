@@ -1,4 +1,4 @@
-// const fabric = require("fabric").fabric;
+
 var canvas = new fabric.Canvas('c', {
   width: 450,
   height: 540,
@@ -14,8 +14,9 @@ const img = document.getElementById('my-image')
 const tshirt = new fabric.Image(img, {
   opacity: 0.85,
 })
-canvas.add(tshirt)
 tshirt.set('selectable', false)
+canvas.add(tshirt)
+canvas.renderAll()
 // function to add text
 function insertText() {
   var text = new fabric.IText('Enter your text here 😃', {
