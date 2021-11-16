@@ -17,6 +17,7 @@ const tshirt = new fabric.Image(img, {
 tshirt.set('selectable', false)
 canvas.add(tshirt)
 canvas.renderAll()
+
 // function to add text
 function insertText() {
   var text = new fabric.IText('Enter your text here 😃', {
