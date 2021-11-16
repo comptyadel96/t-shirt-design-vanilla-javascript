@@ -10,11 +10,12 @@ document.getElementById('shirt-background').onchange = function (e) {
 }
 
 // insert the png image into the canvas and center it ;)
-const tshirt = new fabric.Image.fromURL('/images/shirt.png', function (img) {
-  canvas.add(img)
-  img.set('selectable', false)
+const img = document.getElementById('my-image')
+const tshirt = new fabric.Image(img, {
+  opacity: 0.85,
 })
-
+canvas.add(tshirt)
+tshirt.set('selectable', false)
 // function to add text
 function insertText() {
   var text = new fabric.IText('Enter your text here 😃', {
